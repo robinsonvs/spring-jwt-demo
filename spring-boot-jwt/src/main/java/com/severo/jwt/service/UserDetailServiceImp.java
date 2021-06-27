@@ -38,7 +38,7 @@ public class UserDetailServiceImp implements UserDetailsService {
         return user;
     }
 
-    private List<UserData> listUsers() {
+    public List<UserData> listUsers() {
         List<UserData> list = new ArrayList<>();
         list.add(findUser("admin"));
         return list;

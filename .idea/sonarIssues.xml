@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/main/java/br/com/getnet/credenciamentodigital/merchant/domain/CreateMerchantLegacyMigrationRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/main/java/br/com/getnet/credenciamentodigital/merchant/helper/ChannelRolesHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/main/java/br/com/getnet/credenciamentodigital/merchant/helper/MerchantSubStatusHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/main/java/br/com/getnet/credenciamentodigital/merchant/repository/MerchantRepositoryImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/merchant-ms/src/test/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/microservice-openshift-common-lib/src/main/java/br/com/getnet/credenciamentodigital/lib/filter/StreamListenerAdvice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../ProjetosDBC/Getnet/microservice-openshift-common-lib/src/test/java/br/com/getnet/credenciamentodigital/lib/filter/StreamListenerAdviceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-boot-jwt/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/severo/jwt/SpringBootJwtApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/severo/jwt/data/UserData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/severo/jwt/service/UserDetailServiceImp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
