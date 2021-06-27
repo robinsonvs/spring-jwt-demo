@@ -30,12 +30,12 @@ public class JWTAuthenticatorFilter extends UsernamePasswordAuthenticationFilter
     public Authentication attemptAuthentication(HttpServletRequest req,
                                                 HttpServletResponse res) throws AuthenticationException {
         try {
-            UserData user = new ObjectMapper()
+            UserData credencials = new ObjectMapper()
                     .readValue(req.getInputStream(), UserData.class);
             return authenticationManager.authenticate(
                         new UsernamePasswordAuthenticationToken(
-                                user.getUserName(),
-                                user.getPassword(),
+                                credencials.getUserName(),
+                                credencials.getPassword(),
                                 new ArrayList<>())
             );
         } catch (Exception ex) {
@@ -47,7 +47,7 @@ public class JWTAuthenticatorFilter extends UsernamePasswordAuthenticationFilter
     @Override
     protected void successfulAuthentication(HttpServletRequest req,
                                              HttpServletResponse res,
-                                             FilterChain chain,
+                                             FilterChain filterChain,
                                              Authentication auth) {
         String token = JWT.create()
                 .withSubject(((User) auth.getPrincipal()).getUsername())
